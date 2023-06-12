@@ -66,7 +66,7 @@ namespace Homework_number_49
 
         public Zoo()
         {
-            FillAviary();
+            FillZoo();
         }
 
         public void Work()
@@ -150,7 +150,7 @@ namespace Homework_number_49
             return number;
         }
 
-        private void FillAviary()
+        private void FillZoo()
         {
             CreateAviary("Льви");
             _aviaries[0].TryAddAnimal("Лев", "Женский", "Рычание");
