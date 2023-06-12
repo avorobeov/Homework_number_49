@@ -31,7 +31,7 @@ namespace Homework_number_49
     {
         private List<Animal> _animals = new List<Animal>();
 
-        public string Title;
+        public string Title { get; private set; }
 
         public Aviary(string title)
         {
