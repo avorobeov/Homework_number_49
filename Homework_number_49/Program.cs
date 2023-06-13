@@ -31,12 +31,12 @@ namespace Homework_number_49
     {
         private List<Animal> _animals = new List<Animal>();
 
-        public string Title { get; private set; }
-
         public Aviary(string title)
         {
             Title = title;
         }
+
+        public string Title { get; private set; }
 
         public void ShowInfo()
         {
@@ -63,7 +63,7 @@ namespace Homework_number_49
 
         public Zoo()
         {
-            FillZoo();
+            Fill();
         }
 
         public void Work()
@@ -147,7 +147,7 @@ namespace Homework_number_49
             return number;
         }
 
-        private void FillZoo()
+        private void Fill()
         {
             CreateAviary("Льви");
             _aviaries[0].TryAddAnimal("Лев", "Женский", "Рычание");
